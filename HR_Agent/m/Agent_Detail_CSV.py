@@ -41,7 +41,7 @@ options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_
 options.add_argument('--blink-settings=imagesEnabled=false')
 browser = webdriver.Chrome(chromedriver.path,chrome_options=options)
 
-f = open('Agent_Detail.csv','w')
+f = open('csv/Agent_Detail.csv','w')
 writer = csv.writer(f, lineterminator='\n')
 header = ['社名','本社所在地','設立','転職エージェント数','職業紹介許可番号','紹介事業許可年','ホームページ','注力職種','注力エリア']
 writer.writerow(header)
