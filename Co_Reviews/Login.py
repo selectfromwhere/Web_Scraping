@@ -10,5 +10,3 @@ browser.get(s_inf.url)
 browser.find_element_by_name('_username').send_keys(s_inf.user_name)
 browser.find_element_by_name('_password').send_keys(s_inf.password)
 browser.find_element_by_id('log_in').click()
-
-# browser.get(s_inf.targets['y'])
