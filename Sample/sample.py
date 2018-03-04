@@ -79,3 +79,7 @@ switch_to_default_content
 switch_to_alert
 add_cookie
 get_cookies
+
+## リファレンス
+https://kurozumi.github.io/selenium-python/index.html
+http://www.seleniumqref.com
